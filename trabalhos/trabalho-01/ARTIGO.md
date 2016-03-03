@@ -1,11 +1,12 @@
-(Não é necessário seguir a estrutura a seguir...)
+# Lua
 
-# Introdução
+## Introdução
+**Lua** é uma linguagem de programação multiparadigma e open-source criada em 1993 por membros do Computer Graphics Technology Group da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio). Sua criação foi motivada por barreiras comerciais que existiam no Brasil para hardwares e softwares que faziam com que a Tecgraf e seus clientes não pudessem arcar com os custos de compras no exterior e, portanto, o grupo implementou as ferramentas que precisavam a partir do zero.
 
-# Origens e Influências
+## Influências
 
-# Classificação
+## Classificação
 
-# Avaliação Comparativa
+## Avaliação Comparativa
 
-# Conclusão
+## Conclusão
