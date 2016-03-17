@@ -13,7 +13,37 @@ Sua primeira versão foi projetada para que seus object constructors incorporass
 Em versões mais recentes, a semântica de Lua continuou sendo fortemente influenciada por Scheme.
 
 ## Classificação
+Lua pode ser considerada uma linguagem imperativa, funcional, procedural e, apesar de não possuir classes, ela consegue reproduzir os comportamentos de orientação a objetos através de programação baseada em protótipos. Além disso, ela possui tipagem fraca, dinâmica e implícita.
 
 ## Avaliação Comparativa
+Lua é uma boa linguagem para começar o aprendizado de linguagens funcionais devido a sua proximidade sintática com linguagens procedurais, em oposição a linguagens como Haskell e LISP. Lua possui uma sintaxe próxima de Pascal e uma semântica similar a Scheme que inclui anonymous functions e full lexical scoping.
+
+## Códigos Representativos
+
+Exemplo de Delegation simulando OOP.
+```
+meta = {}
+
+function meta.__tostring(person)
+  return person.prefix .. " " .. person.name
+end
+
+function meta.__index(table, key)
+  return table.prototype[key]
+end
+
+job = { prefix="Dr." }
+person = { name="Simon",prototype=job } -- create Axel
+setmetatable(person,meta) -- install metatable
+print(person) -- print "Dr. Simon"
+```
 
 ## Conclusão
+Lua é uma linguagem extensível, leve, de fácil aprendizado e extremamente utilizada como linguagem de script no desenvolvimento de jogos e outros softwares complexos.
+
+## Bibliografia
+Site da linguagem: http://www.lua.org/
+Wikipedia: https://en.wikipedia.org/wiki/Lua_%28programming_language%29
+Stack Overflow: http://stackoverflow.com/questions/3477676/is-lua-an-object-oriented-language
+Wikipedia 2: https://en.wikipedia.org/wiki/Prototype-based_programming
+LUA as a first approach to functional programming: gaia.fdi.ucm.es/aigaion2/index.php/attachments/single/62
