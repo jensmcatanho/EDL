@@ -42,8 +42,14 @@ print(person) -- print "Dr. Simon"
 Lua é uma linguagem extensível, leve, de fácil aprendizado e extremamente utilizada como linguagem de script no desenvolvimento de jogos e outros softwares complexos.
 
 ## Bibliografia
+
 Site da linguagem: http://www.lua.org/
+
 Wikipedia: https://en.wikipedia.org/wiki/Lua_%28programming_language%29
+
 Stack Overflow: http://stackoverflow.com/questions/3477676/is-lua-an-object-oriented-language
+
 Wikipedia 2: https://en.wikipedia.org/wiki/Prototype-based_programming
+
 LUA as a first approach to functional programming: gaia.fdi.ucm.es/aigaion2/index.php/attachments/single/62
+
